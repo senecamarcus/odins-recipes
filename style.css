@@ -7,6 +7,10 @@
 
 }
 
+.button1 {
+    background-color: rgb(161, 147, 147);
+    color: white;
+}
 .paella1 {
     width: 300px;
     height: auto;
@@ -16,3 +20,9 @@
     width: 300px;
     height: auto;
 }
+
+.shrimp1 {
+    width: 300px;
+    height: auto;
+}
+
