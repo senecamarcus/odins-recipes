@@ -1,15 +1,44 @@
+
+body {
+    background-color: #008B8B;
+    margin: 0px;
+    
+}
+
+.border1 {
+    display: flex;
+    justify-content:space-around;
+    background-color: black;
+   
+    
+}
+
 .tittle {
-    text-align: center;
-    font-size: 40px;
+    font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     background-color: black;
-    margin-top: 0%;
-    border-top: 0px;
+    padding: left 400px;
+    
     
 
 }
 
+.login1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login2 {
+    margin-right: 60px;
+    color: white;
+}
+
+.register1 {
+    margin-right: 40px;
+    color: white;
+}
 
 .paella1 {
     width: 400px;
@@ -39,11 +68,11 @@
 .recipe1 {
     font-size: 22px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: aqua;
+    background-color: #7FFFD4;
     padding: 10px;
     height: 30px;
-    border-bottom: 3px solid black;
-    border-right: 4px solid black;
+    border-bottom: 5px solid black;
+    border-right: 7px solid black;
     
 }
 
@@ -53,6 +82,7 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
+    flex: 1;
     
    
 }
@@ -63,6 +93,7 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
+    flex: 1;
 }
 
 .box11 {
@@ -74,7 +105,6 @@
     
 
 }
-
 
 
 
