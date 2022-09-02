@@ -2,7 +2,7 @@
     text-align: center;
     font-size: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: red;
+    color: white;
     background-color: black;
 
 }
@@ -22,6 +22,11 @@
 }
 
 .shrimp1 {
+    width: 300px;
+    height: auto;
+}
+
+.shakshuka1 {
     width: 300px;
     height: auto;
 }
