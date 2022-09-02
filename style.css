@@ -7,13 +7,11 @@
 
 }
 
-.button1 {
-    background-color: rgb(161, 147, 147);
-    color: white;
-}
+
 .paella1 {
     width: 300px;
     height: auto;
+    font-size: 22px;
 }
 
 .tabouli1 {
@@ -29,5 +27,10 @@
 .shakshuka1 {
     width: 300px;
     height: auto;
+}
+
+.recipe1{
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
