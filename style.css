@@ -4,6 +4,9 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     background-color: black;
+    margin-top: 0%;
+    border-top: 0px;
+    
 
 }
 
@@ -11,26 +14,67 @@
 .paella1 {
     width: 300px;
     height: auto;
-    font-size: 22px;
+    font-size: 10px;
+    border: 4px solid black; 
 }
 
 .tabouli1 {
     width: 300px;
     height: auto;
+    border: 4px solid black;
 }
 
 .shrimp1 {
     width: 300px;
     height: auto;
+    border: 4px solid black;
 }
 
 .shakshuka1 {
     width: 300px;
     height: auto;
+    border: 4px solid black;
 }
 
-.recipe1{
+.recipe1 {
     font-size: 22px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aqua;
+    padding: 10px;
+    height: 30px;
+    
+   
 }
+
+.box1 {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    
+   
+}
+
+.box2 {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.box11 {
+    
+    
+}
+
+.box12{
+    
+
+}
+
+
+
+
 
