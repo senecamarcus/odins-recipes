@@ -4,21 +4,35 @@ body {
     margin: 0px;
     
 }
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    background-color: black;
+    list-style-type: none;
+    
+}
+
+.nav {
+    display: flex;
+    gap: 18px;
+    margin-right: 150px;
+}
+
+.odin {
+    color: white;
+    font-size: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 150px;
+}
    
     
-    .nav-list{
-        display: flex;
-        gap: 1rem;
-        flex-wrap: wrap;
-
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
-
-    .nav-list li {
-        flex-shrink: 1;
-        flex-grow: 0;
+    .list {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
     }
 
 
@@ -67,6 +81,8 @@ body {
     justify-content: space-around;
     flex-direction: row;
     flex: 1;
+    font-style: none;
+    list-style: none;
     
    
 }
