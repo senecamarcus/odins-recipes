@@ -1,6 +1,6 @@
 
 body {
-    background-color: #008B8B;
+    background-color: #d6ecec;
     margin: 0px;
     
 }
@@ -10,7 +10,7 @@ body {
     align-items: center;
     justify-content: space-between;
     height: 50px;
-    background-color: black;
+    background-color: #d6ecec;
     list-style-type: none;
     
 }
@@ -22,90 +22,83 @@ body {
 }
 
 .odin {
-    color: white;
+    color: black;
     font-size: 32px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 150px;
 }
-   
+
+.odin1
+{
+    height: auto;
+    width: 40px;
+}   
     
     .list {
-        color: white;
+        color: black;
         background-color: transparent;
         text-decoration: none;
     }
 
+    .section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-color: white;
+}   
 
-.paella1 {
-    width: 400px;
-    height: auto;
-    font-size: 10px;
-    border: 4px solid black; 
+.secback {
+    display: flex;
+    flex-direction: row;
+    background-color: #d6ecec;
+    width: 900px;
+    height: 500px;
+    border-radius: 15px;
+    gap: 40px;
+    
 }
 
-.tabouli1 {
-    width: 400px;
-    height: 265px;
-    border: 4px solid black;
+.images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+
 }
 
-.shrimp1 {
+.pic {
     width: 400px;
-    height: auto;
-    border: 4px solid black;
+    height: 300px;
+    border-radius: 15px;
+    margin-left: 40px;
 }
 
-.shakshuka1 {
-    width: 400px;
-    height: auto;
-    border: 4px solid black;
+.paella {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    margin-right: 40px;
+    
+    
 }
 
-.recipe1 {
+.tittle1 {
+    font-weight: bolder;
+    font-size: 36px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.description1 {
+    font-style: italic;
     font-size: 22px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #7FFFD4;
-    padding: 10px;
-    height: 30px;
-    border-bottom: 5px solid black;
-    border-right: 7px solid black;
-    
 }
 
-.box1 {
-    
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 40px;
-    justify-content: space-around;
-    flex-direction: row;
-    flex: 1;
-    font-style: none;
-    list-style: none;
-    
-   
-}
 
-.box2 {
-    margin-top: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
-    flex: 1;
-}
 
-.box11 {
-    
-    
-}
 
-.box12{
-    
-
-}
 
 
 
